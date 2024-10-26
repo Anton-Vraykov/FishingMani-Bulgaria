@@ -2,7 +2,7 @@
 {
     public class ApplicationUserFishingPlace
     {
-        public Guid ApplicationUserId { get; set; }
+        public Guid ApplicationUserId { get; set; }= Guid.NewGuid();
 
         public virtual ApplicationUser ApplicationUser { get; set; } = null!;
 
