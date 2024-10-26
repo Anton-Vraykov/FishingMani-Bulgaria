@@ -1,9 +1,11 @@
-﻿using FishingManiаBulgaria.Common;
+﻿
+using FishingManiаBulgaria.Common;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FishingManiаBulgaria.Data.Models
 {
+  
     public class FishingPlace
     {
        

@@ -1,4 +1,4 @@
-﻿
+﻿using FishingManiаBulgaria.Common;
 
 namespace FishingManiаBulgaria.Data.Models
 {

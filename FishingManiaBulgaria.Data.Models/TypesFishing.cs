@@ -1,4 +1,5 @@
-﻿using FishingManiаBulgaria.Common;
+﻿using FishingManiаBulgaria;
+using FishingManiаBulgaria.Common;
 using System.ComponentModel.DataAnnotations;
 
 namespace FishingManiаBulgaria.Data.Models

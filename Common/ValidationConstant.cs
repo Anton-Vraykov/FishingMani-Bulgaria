@@ -1,6 +1,6 @@
 ﻿namespace FishingManiаBulgaria.Common
 {
-    public class ValidationConstant
+    public static class ValidationConstant
     {
         //all
         public const string TimeFormat = "dd/MM/yyyy";
