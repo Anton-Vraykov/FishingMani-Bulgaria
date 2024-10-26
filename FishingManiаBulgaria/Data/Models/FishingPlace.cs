@@ -5,8 +5,9 @@ namespace FishingManiаBulgaria.Data.Models
 {
     public class FishingPlace
     {
+       
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }=Guid.NewGuid();
         [Required]
         [MaxLength(ValidationConstant.PlaceNameMax)]
         public string Name { get; set; }=string.Empty;
@@ -14,11 +15,12 @@ namespace FishingManiаBulgaria.Data.Models
         public string PictureURL { get; set; }= string.Empty;
         [Required]
         [MaxLength(ValidationConstant.PlaceLocationMax)]
-        public string Location { get; set; }
+        public string Location { get; set; } = string.Empty;
         public DateTime Reservation { get; set; }
         [Required]
-        public string Description { get; set; }
-        public double Price { get; set; }
+        [MaxLength(ValidationConstant.PlaceDescriptionMax)]
+        public string Description { get; set; }=string.Empty ;
+        public decimal Price { get; set; }
         public bool IsDeleted { get; set; }
 
     }
