@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FishingApp.Data\FishingManiaBulgaria.Data.csproj" />
+    <ProjectReference Include="..\FishingManiaBulgaria.Data\FishingManiaBulgaria.Data.csproj" />
   </ItemGroup>
 
 </Project>

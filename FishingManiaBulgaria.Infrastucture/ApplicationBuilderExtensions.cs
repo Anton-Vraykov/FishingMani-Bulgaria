@@ -1,4 +1,4 @@
-﻿using FishingManiаBulgaria.Data;
+﻿using FishingManiaBulgaria.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
