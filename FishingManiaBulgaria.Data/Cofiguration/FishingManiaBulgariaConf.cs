@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FishingManiaBulgaria.Data.Cofiguration
 {
-    public class ApplicationUserFishingPlaceConf : IEntityTypeConfiguration<ApplicationUserFishingPlace>
+    public class FishingMAniaBulgariaConf : IEntityTypeConfiguration<ApplicationUserFishingPlace>
     {
         public void Configure(EntityTypeBuilder<ApplicationUserFishingPlace> builder)
         {
